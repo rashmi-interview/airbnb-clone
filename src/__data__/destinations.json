@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "MV, Maldives",
+    "cover": "https://a0.muscache.com/im/pictures/373443ec-b377-4181-b753-3a2f3508c2b3.jpg?im_w=720",
+    "distance": 1212,
+    "rating": 4.6,
+    "price": {
+      "night": 2100
+    }
+  },
+  {
+    "id": 2,
+    "name": "El Nido, Philipines",
+    "cover": "https://a0.muscache.com/im/pictures/fa2ed873-e726-4e6d-ab1a-28bc7c69d805.jpg?im_w=720",
+    "distance": 1213,
+    "rating": 3.5,
+    "price": {
+      "night": 2100
+    }
+  },
+  {
+    "id": 3,
+    "name": "MV, Maldives",
+    "cover": "https://a0.muscache.com/im/pictures/2f15fd34-ad65-4b22-a276-50c298cbae3e.jpg?im_w=720",
+    "distance": 1213,
+    "rating": 3.5,
+    "price": {
+      "night": 2100
+    }
+  },
+  {
+    "id": 5,
+    "name": "MV, Maldives",
+    "cover": "https://a0.muscache.com/im/pictures/78fb8268-b999-4389-b072-e2a66910e41b.jpg?im_w=720",
+    "distance": 1213,
+    "rating": 3.5,
+    "price": {
+      "night": 2100
+    }
+  },
+  {
+    "id": 6,
+    "name": "MV, Maldives",
+    "cover": "https://a0.muscache.com/im/pictures/miso/Hosting-52159627/original/d727cf6e-4787-4b38-a86f-0cd8d91d02b2.png?im_w=720",
+    "distance": 1213,
+    "rating": 3.5,
+    "price": {
+      "night": 2100
+    }
+  },
+  {
+    "id": 7,
+    "name": "MV, Maldives",
+    "cover": "https://a0.muscache.com/im/pictures/e24c13b9-dd2a-4e15-9845-dd588a884e39.jpg?im_w=720",
+    "distance": 1213,
+    "rating": 3.5,
+    "price": {
+      "night": 2100
+    }
+  }
+]

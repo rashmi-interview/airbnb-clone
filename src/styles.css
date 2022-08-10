@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.section-padding-wrapper {
+  padding-left: clamp(2rem, 3rem, 10rem);
+  padding-right: clamp(2rem, 3rem, 10rem);
+  max-width: 1680px;
+  margin: auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.m-t-20 {
+  margin-top: 20px;
+}
+
+.m-r-5 {
+  margin-right: 5px;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.w-12 {
+  width: 12px;
+}
+
+.w-16 {
+  width: 16px;
+}
+
+.w-30 {
+  width: 30px;
+}
+

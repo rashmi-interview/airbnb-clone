@@ -1,0 +1,151 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  border-bottom: solid 1px #eee;
+}
+
+.header-right,
+.header__logo-small,
+.header__logo-large {
+  display: none;
+}
+
+.change-location-btn {
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 12px;
+  margin: 0 4px;
+}
+
+.change-location-btn:hover {
+  background-color: #eee;
+}
+
+.become-host-anchor {
+  text-decoration: none;
+  color: #000;
+  border-radius: 20px;
+  padding: 12px;
+  white-space: nowrap;
+  margin: 0 4px;
+}
+
+.become-host-anchor:hover {
+  color: #000;
+  background-color: #eee;
+}
+
+.profile {
+  padding: 8px;
+
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  place-items: center;
+  gap: 12px;
+  border: solid 1px #eee;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.profile:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18)
+}
+
+.tabs__wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.tabs__item {
+  display: block;
+  margin: 12px;
+  padding-bottom: 4px;
+  position: relative;
+  color: #000;
+  user-select: none;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.tabs__item::after,
+.tabs__item::before {
+  background-color: gray;
+  content: '';
+  height: 2px;
+  position: absolute;
+  top: 100%;
+  width: 0px;
+  transition-property: width;
+  transition-duration: 600ms;
+  transition-timing-function: ease;
+}
+
+.tabs__item::after {
+  transform-origin: left;
+  left: 50%;
+}
+
+.tabs__item::before {
+  right: 50%;
+  transform-origin: right;
+}
+
+.tabs__item:not(.tabs__item-active):hover {
+  color: gray;
+}
+
+.tabs__item:hover:not(.tabs__item-active)::after,
+.tabs__item:hover:not(.tabs__item-active)::before {
+  background-color: gray;
+  width: 50%;
+}
+
+.tabs__item.tabs__item-active {
+  color: #000;
+}
+
+.tabs__item-active::after,
+.tabs__item-active::before {
+  background-color: black;
+  width: 50%;
+}
+
+@media only screen and (min-width: 600px) {
+ 
+  .header__logo-small {
+    display: inline;
+  }
+
+  .header-right {
+    display: flex;
+  }
+
+  .header {
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+ 
+  .header__logo-small {
+    display: inline;
+  }
+
+  .header__logo-large {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .header__logo-small {
+    display: none;
+  }
+
+  .header__logo-large {
+    display: inline;
+  }
+}
